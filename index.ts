@@ -42,7 +42,9 @@ app.post('/person', (req, res) => {
   res.json({message:'Add new person successfully'})
 })
 
+
 const port = process.env.PORT || 3000
+
 
 app.listen(port, () => {
   console.log(`  App is running at port ${port}`)
